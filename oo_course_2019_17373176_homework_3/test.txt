@@ -1,0 +1,31 @@
+weak2：已解决，有问题
+(-1 + x ^ 3)* sin(x^2) ^  06 - cos(sin(x)) * 3 * sin((x))
+
+weak7：已解决
+sin(x^2)
+
+sin(x)^2有问题
+
+weak9：已解决
+(x)
+
+weak10： 已解决
+sin(2) 添加括号
+
+1：已解决
+(+++19260817)*(+ +x^2)*(++ sin(x))
+
+6：有问题
+sin((x^2+cos((cos(x)^2+sin(x)^3+x))+3*3*3*sin(x)))
+
+7：已解决
++ +x* 1-+ 1*x+ ++0*x^2*sin (x)^3
+
+8：sin(2*x)+cos(1+x)+sin(x*x) 错误格式
+
+9：sin((2x))+cos((3x))+cos(cos(x)) 错误格式
+
+10：sin(x)^10001*cos(x)^10001+sin(x)^2+cos(x)^2 错误指数
+
+
+12：sin(sin((x+x))^2)

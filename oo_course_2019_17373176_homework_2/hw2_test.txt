@@ -1,0 +1,58 @@
+week2:2*sin(x)^2 + 6*cos(x)^3对
++0+2*1*x^0*2*sin(x)^1*1*cos(x)^1*1*cos(x)^0+0+0+0-6*1*x^0*1*sin(x)^0*3*cos(x)^2*1*sin(x)^1
+
+
+weak_6：
+co s(x)
+对了
+expected_output:
+WRONG FORMAT!
+
+
+
+weak_7:
+cos (x) + sin (x)
+对了
+expected_output:
+-sin(x)+cos(x)
++0+0+1*1*x^0*1*sin(x)^0*1*cos(x)^0*1*sin(x)^1+0+0+10*1*x^0*1*sin(x)^0*1*cos(x)^0*1*sin(x)^1
+
+
+
+
+
+middle1:+++19260817表达式正确
+
+
+
+middle_4:
+2*+sin(x)+4*cos(x)
+
+expected_output:
+WRONG FORMAT!
+
+
+
+middle_6:
+x^+2*cos(x)^3*sin(x)*x^-9*sin(x)^-6+cos(x)^-0*x^-000*sin(x)^2
+
+expected_output:
+-7*x^-8*sin(x)^-5*cos(x)^3-5*x^-7*sin(x)^-6*cos(x)^4-3*x^-7*sin(x)^-4*cos(x)^2+2*sin(x)*cos(x)
+
+
+6:233* x^+2*cos(x)^3*sin(x)^-9*999*sin(x)^-6*1926+cos(x)^-0*x^-000*sin(x)^2
++448309242*2*x^1*1*sin(x)^-15*1*cos(x)^3+448309242*1*x^2*15*sin(x)^-16*1*cos(x)^1*1*cos(x)^3-448309242*1*x^2*1*sin(x)^-15*3*cos(x)^2*1*sin(x)^1+4483092420*2*x^1*1*sin(x)^-15*1*cos(x)^3+4483092420*1*x^2*15*sin(x)^-16*1*cos(x)^1*1*cos(x)^3-4483092420*1*x^2*1*sin(x)^-15*3*cos(x)^2*1*sin(x)^1
+
+middle7:+ +x* 1-+ 1*x
+
+表达式正确
+
+8:+ ++0*x^2*sin (x)^3     ；   ++ +1 + - +1 
+表达式正确
+
+input:+++x错误只有首项有正负
+
+input：
+x	* x *	x ^ 2 * x ^ +2 *  2 * sin ( x )
+
+output：
