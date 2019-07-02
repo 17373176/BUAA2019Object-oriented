@@ -1,2 +1,2 @@
-# experience1
-修改代码，类的抽象，类名管理
+# experience2
+编写雇主与雇员的功能
