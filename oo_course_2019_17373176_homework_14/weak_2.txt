@@ -1,0 +1,38 @@
+{"_parent":"AAAAAAFF+h6SjaM2Hec=","name":"Parser","_type":"UMLStateMachine","_id":"AAAAAAFrXjtGRjOR9DA="}
+{"_parent":"AAAAAAFrXjtGRjOR9DA=","visibility":"public","name":null,"_type":"UMLRegion","_id":"AAAAAAFrXjtGRjOS988="}
+{"_parent":"AAAAAAFrXjtGRjOS988=","visibility":"public","name":null,"_type":"UMLPseudostate","_id":"AAAAAAFrXjtjdjOYbaE="}
+{"_parent":"AAAAAAFrXjtGRjOS988=","visibility":"public","name":"Lex","_type":"UMLState","_id":"AAAAAAFrXjtwqzOpfoU="}
+{"_parent":"AAAAAAFrXjtGRjOS988=","visibility":"public","name":null,"_type":"UMLFinalState","_id":"AAAAAAFrXju6jTPPllU="}
+{"_parent":"AAAAAAFrXjtGRjOS988=","visibility":"public","name":"Parse","_type":"UMLState","_id":"AAAAAAFrXj5brDSMY1o="}
+{"_parent":"AAAAAAFrXjtGRjOS988=","visibility":"public","name":"Optimize","_type":"UMLState","_id":"AAAAAAFrXkCzGTUIiOQ="}
+{"_parent":"AAAAAAFrXjtGRjOS988=","visibility":"public","guard":null,"name":null,"_type":"UMLTransition","_id":"AAAAAAFrXj0ePzQ6NBA=","source":"AAAAAAFrXjtjdjOYbaE=","target":"AAAAAAFrXjtwqzOpfoU="}
+{"_parent":"AAAAAAFrXj0ePzQ6NBA=","expression":null,"visibility":"public","name":"feedLex","_type":"UMLEvent","_id":"AAAAAAFrXj10BTRMqDA=","value":null}
+{"_parent":"AAAAAAFrXjtGRjOS988=","visibility":"public","guard":null,"name":null,"_type":"UMLTransition","_id":"AAAAAAFrXj4UnjR1h3o=","source":"AAAAAAFrXjtwqzOpfoU=","target":"AAAAAAFrXju6jTPPllU="}
+{"_parent":"AAAAAAFrXj4UnjR1h3o=","expression":null,"visibility":"public","name":"lexFail","_type":"UMLEvent","_id":"AAAAAAFrXj4dJjSH2Do=","value":null}
+{"_parent":"AAAAAAFrXjtGRjOS988=","visibility":"public","guard":null,"name":null,"_type":"UMLTransition","_id":"AAAAAAFrXj+1eDTXIog=","source":"AAAAAAFrXjtwqzOpfoU=","target":"AAAAAAFrXj5brDSMY1o="}
+{"_parent":"AAAAAAFrXj+1eDTXIog=","expression":null,"visibility":"public","name":"feedParse","_type":"UMLEvent","_id":"AAAAAAFrXj\/G1TTpMJA=","value":null}
+{"_parent":"AAAAAAFrXjtGRjOS988=","visibility":"public","guard":null,"name":null,"_type":"UMLTransition","_id":"AAAAAAFrXkAB8DTt8dU=","source":"AAAAAAFrXj5brDSMY1o=","target":"AAAAAAFrXju6jTPPllU="}
+{"_parent":"AAAAAAFrXkAB8DTt8dU=","expression":null,"visibility":"public","name":"parseFail","_type":"UMLEvent","_id":"AAAAAAFrXkAHrDT\/Ojs=","value":null}
+{"_parent":"AAAAAAFrXjtGRjOS988=","visibility":"public","guard":null,"name":null,"_type":"UMLTransition","_id":"AAAAAAFrXkDeGTUvgV8=","source":"AAAAAAFrXj5brDSMY1o=","target":"AAAAAAFrXkCzGTUIiOQ="}
+{"_parent":"AAAAAAFrXkDeGTUvgV8=","expression":null,"visibility":"public","name":"feedOptimize","_type":"UMLEvent","_id":"AAAAAAFrXkDsnjVB0lQ=","value":null}
+{"_parent":"AAAAAAFrXjtGRjOS988=","visibility":"public","guard":null,"name":null,"_type":"UMLTransition","_id":"AAAAAAFrXkGVRDVKmDc=","source":"AAAAAAFrXkCzGTUIiOQ=","target":"AAAAAAFrXju6jTPPllU="}
+{"_parent":"AAAAAAFrXkGVRDVKmDc=","expression":null,"visibility":"public","name":"generate","_type":"UMLEvent","_id":"AAAAAAFrXkGh1TVctds=","value":null}
+{"_parent":"AAAAAAFrBpgFkpBFmZg=","visibility":"public","name":"C1","_type":"UMLClass","_id":"AAAAAAFrBpgFkpBG\/yE="}
+{"_parent":"AAAAAAFrBpgFkpBFmZg=","visibility":"public","name":"C2","_type":"UMLClass","_id":"AAAAAAFrBpgFk5BHW4Y="}
+{"_parent":"AAAAAAFrBpgFk5BHW4Y=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrBpgFlZBLknw=","source":"AAAAAAFrBpgFk5BHW4Y=","target":"AAAAAAFrBpgFkpBG\/yE="}
+{"_parent":"AAAAAAFrBpgFkpBFmZg=","visibility":"public","name":"C3","_type":"UMLClass","_id":"AAAAAAFrBpgFk5BIFkU="}
+{"_parent":"AAAAAAFrBpgFk5BIFkU=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrBpgFlZBMGPs=","source":"AAAAAAFrBpgFk5BIFkU=","target":"AAAAAAFrBpgFk5BHW4Y="}
+{"_parent":"AAAAAAFrBpgFkpBFmZg=","visibility":"public","name":"C4","_type":"UMLClass","_id":"AAAAAAFrBpgFlJBJFuk="}
+{"_parent":"AAAAAAFrBpgFlJBJFuk=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrBpgFlZBNYik=","source":"AAAAAAFrBpgFlJBJFuk=","target":"AAAAAAFrBpgFk5BHW4Y="}
+{"_parent":"AAAAAAFrBpgFkpBFmZg=","visibility":"public","name":"C5","_type":"UMLClass","_id":"AAAAAAFrBpgFlJBKMns="}
+{"_parent":"AAAAAAFrBpgFlJBKMns=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrBpgFlZBOG38=","source":"AAAAAAFrBpgFlJBKMns=","target":"AAAAAAFrBpgFk5BIFkU="}
+END_OF_MODEL
+CLASS_ASSO_COUNT C1
+CLASS_ASSO_COUNT C2
+CLASS_ASSO_COUNT C3
+CLASS_ASSO_COUNT C4
+CLASS_ASSO_COUNT C5
+CLASS_TOP_BASE C5
+STATE_COUNT Parser
+TRANSITION_COUNT Parser
+SUBSEQUENT_STATE_COUNT Parser Lex

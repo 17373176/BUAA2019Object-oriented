@@ -1,0 +1,18 @@
+{"_parent":"AAAAAAFF+h6SjaM2Hec=","name":"StateMachine1","_type":"UMLStateMachine","_id":"AAAAAAFrdEv19rhodnA="}
+{"_parent":"AAAAAAFrdEv19rhodnA=","visibility":"public","name":null,"_type":"UMLRegion","_id":"AAAAAAFrdEv197hpHQI="}
+{"_parent":"AAAAAAFrdEv197hpHQI=","visibility":"public","name":"State1","_type":"UMLState","_id":"AAAAAAFrdEwXPbhyd54="}
+{"_parent":"AAAAAAFrdEv197hpHQI=","visibility":"public","name":null,"_type":"UMLPseudostate","_id":"AAAAAAFrdEwbUriXPuc="}
+{"_parent":"AAAAAAFrdEv197hpHQI=","visibility":"public","name":"State2","_type":"UMLState","_id":"AAAAAAFrdEwnO7io3+o="}
+{"_parent":"AAAAAAFrdEv197hpHQI=","visibility":"public","name":"State3","_type":"UMLState","_id":"AAAAAAFrdEwsXbjN+W8="}
+{"_parent":"AAAAAAFrdEv197hpHQI=","visibility":"public","name":null,"_type":"UMLFinalState","_id":"AAAAAAFrdEwz17jyBv0="}
+{"_parent":"AAAAAAFrdEv197hpHQI=","visibility":"public","guard":null,"name":null,"_type":"UMLTransition","_id":"AAAAAAFrdExB77j3m4o=","source":"AAAAAAFrdEwbUriXPuc=","target":"AAAAAAFrdEwXPbhyd54="}
+{"_parent":"AAAAAAFrdEv197hpHQI=","visibility":"public","guard":null,"name":null,"_type":"UMLTransition","_id":"AAAAAAFrdExLKLkIyug=","source":"AAAAAAFrdEwXPbhyd54=","target":"AAAAAAFrdEwnO7io3+o="}
+{"_parent":"AAAAAAFrdEv197hpHQI=","visibility":"public","guard":null,"name":null,"_type":"UMLTransition","_id":"AAAAAAFrdExSSrkZAkk=","source":"AAAAAAFrdEwnO7io3+o=","target":"AAAAAAFrdEwsXbjN+W8="}
+{"_parent":"AAAAAAFrdEv197hpHQI=","visibility":"public","guard":null,"name":null,"_type":"UMLTransition","_id":"AAAAAAFrdExci7kqyGY=","source":"AAAAAAFrdEwsXbjN+W8=","target":"AAAAAAFrdEwz17jyBv0="}
+{"_parent":"AAAAAAFrdEv197hpHQI=","visibility":"public","guard":null,"name":null,"_type":"UMLTransition","_id":"AAAAAAFrdExnLLk72BM=","source":"AAAAAAFrdEwXPbhyd54=","target":"AAAAAAFrdEwsXbjN+W8="}
+{"_parent":"AAAAAAFrdEv197hpHQI=","visibility":"public","guard":null,"name":null,"_type":"UMLTransition","_id":"AAAAAAFrdEx4BrlM9Fo=","source":"AAAAAAFrdEwnO7io3+o=","target":"AAAAAAFrdEwnO7io3+o="}
+END_OF_MODEL
+STATE_COUNT StateMachine1
+SUBSEQUENT_STATE_COUNT StateMachine1 State1
+SUBSEQUENT_STATE_COUNT StateMachine1 State2
+SUBSEQUENT_STATE_COUNT StateMachine1 State3

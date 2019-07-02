@@ -1,0 +1,173 @@
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Interface6","_type":"UMLInterface","_id":"AAAAAAFrGi4UyYK0nfI="}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Interface7","_type":"UMLInterface","_id":"AAAAAAFrGi44D4LdbFw="}
+{"_parent":"AAAAAAFrGi44D4LdbFw=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrGjCHh4RYUFk=","source":"AAAAAAFrGi44D4LdbFw=","target":"AAAAAAFrGi4UyYK0nfI="}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Interface8","_type":"UMLInterface","_id":"AAAAAAFrGi5QuYMG2qw="}
+{"_parent":"AAAAAAFrGi5QuYMG2qw=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrGjAad4QdlJY=","source":"AAAAAAFrGi5QuYMG2qw=","target":"AAAAAAFrGi44D4LdbFw="}
+{"_parent":"AAAAAAFrGi5QuYMG2qw=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrGjBPyIQuSew=","source":"AAAAAAFrGi5QuYMG2qw=","target":"AAAAAAFrGi4UyYK0nfI="}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Interface9","_type":"UMLInterface","_id":"AAAAAAFrGi5f9YMveKc="}
+{"_parent":"AAAAAAFrGi5f9YMveKc=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrGi9wwoPmXac=","source":"AAAAAAFrGi5f9YMveKc=","target":"AAAAAAFrGi5QuYMG2qw="}
+{"_parent":"AAAAAAFrGi5f9YMveKc=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrGi+HaoP3HKg=","source":"AAAAAAFrGi5f9YMveKc=","target":"AAAAAAFrGi44D4LdbFw="}
+{"_parent":"AAAAAAFrGi5f9YMveKc=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrGi\/AvYQK7oM=","source":"AAAAAAFrGi5f9YMveKc=","target":"AAAAAAFrGi4UyYK0nfI="}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Interface10","_type":"UMLInterface","_id":"AAAAAAFrGi5uooNYYl8="}
+{"_parent":"AAAAAAFrGi5uooNYYl8=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrGi6wM4Oaljs=","source":"AAAAAAFrGi5uooNYYl8=","target":"AAAAAAFrGi4UyYK0nfI="}
+{"_parent":"AAAAAAFrGi5uooNYYl8=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrGi7KuoOrwOc=","source":"AAAAAAFrGi5uooNYYl8=","target":"AAAAAAFrGi5f9YMveKc="}
+{"_parent":"AAAAAAFrGi5uooNYYl8=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrGi8lmIPCfZg=","source":"AAAAAAFrGi5uooNYYl8=","target":"AAAAAAFrGi5QuYMG2qw="}
+{"_parent":"AAAAAAFrGi5uooNYYl8=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrGi862IPTZlQ=","source":"AAAAAAFrGi5uooNYYl8=","target":"AAAAAAFrGi44D4LdbFw="}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Interface1","_type":"UMLInterface","_id":"AAAAAAFrGjKy7IctKDI="}
+{"_parent":"AAAAAAFrGjKy7IctKDI=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrGjMrNogT104=","source":"AAAAAAFrGjKy7IctKDI=","target":"AAAAAAFrGi5uooNYYl8="}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Interface2","_type":"UMLInterface","_id":"AAAAAAFrGjLGg4dWP\/A="}
+{"_parent":"AAAAAAFrGjLGg4dWP\/A=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrGjO8sYgkF28=","source":"AAAAAAFrGjLGg4dWP\/A=","target":"AAAAAAFrGjKy7IctKDI="}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Interface3","_type":"UMLInterface","_id":"AAAAAAFrGjLnyod\/\/\/A="}
+{"_parent":"AAAAAAFrGjLnyod\/\/\/A=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrGjPNIIg10gE=","source":"AAAAAAFrGjLnyod\/\/\/A=","target":"AAAAAAFrGjLGg4dWP\/A="}
+{"_parent":"AAAAAAFrGjLnyod\/\/\/A=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrGjQU5ohodZw=","source":"AAAAAAFrGjLnyod\/\/\/A=","target":"AAAAAAFrGjKy7IctKDI="}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Interface4","_type":"UMLInterface","_id":"AAAAAAFrGjL01oeoKfs="}
+{"_parent":"AAAAAAFrGjL01oeoKfs=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrGjPeY4hGT9U=","source":"AAAAAAFrGjL01oeoKfs=","target":"AAAAAAFrGjLnyod\/\/\/A="}
+{"_parent":"AAAAAAFrGjL01oeoKfs=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrGjQqi4h5UZI=","source":"AAAAAAFrGjL01oeoKfs=","target":"AAAAAAFrGjKy7IctKDI="}
+{"_parent":"AAAAAAFrGjL01oeoKfs=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrGjR51IidCBo=","source":"AAAAAAFrGjL01oeoKfs=","target":"AAAAAAFrGjLGg4dWP\/A="}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Interface5","_type":"UMLInterface","_id":"AAAAAAFrGjL\/s4fRY3o="}
+{"_parent":"AAAAAAFrGjL\/s4fRY3o=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrGjPs44hXE74=","source":"AAAAAAFrGjL\/s4fRY3o=","target":"AAAAAAFrGjL01oeoKfs="}
+{"_parent":"AAAAAAFrGjL\/s4fRY3o=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrGjRMVoiKMos=","source":"AAAAAAFrGjL\/s4fRY3o=","target":"AAAAAAFrGjKy7IctKDI="}
+{"_parent":"AAAAAAFrGjL\/s4fRY3o=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrGjStOIiwmkg=","source":"AAAAAAFrGjL\/s4fRY3o=","target":"AAAAAAFrGjLGg4dWP\/A="}
+{"_parent":"AAAAAAFrGjL\/s4fRY3o=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrGjTdjYjCmNU=","source":"AAAAAAFrGjL\/s4fRY3o=","target":"AAAAAAFrGjLnyod\/\/\/A="}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Class1","_type":"UMLClass","_id":"AAAAAAFrGjUbvojVADg="}
+{"_parent":"AAAAAAFrGjUbvojVADg=","name":null,"_type":"UMLInterfaceRealization","_id":"AAAAAAFrGjVQGYknQYk=","source":"AAAAAAFrGjUbvojVADg=","target":"AAAAAAFrGjL\/s4fRY3o="}
+{"_parent":"AAAAAAFrGjUbvojVADg=","name":null,"_type":"UMLInterfaceRealization","_id":"AAAAAAFrHlKo+lEzR3M=","source":"AAAAAAFrGjUbvojVADg=","target":"AAAAAAFrGi5f9YMveKc="}
+{"_parent":"AAAAAAFrGjUbvojVADg=","visibility":"public","name":"Attribute1","_type":"UMLAttribute","_id":"AAAAAAFrGjZHPImlMUU=","type":"boolean"}
+{"_parent":"AAAAAAFrGjUbvojVADg=","visibility":"public","name":"Attribute2","_type":"UMLAttribute","_id":"AAAAAAFrGjZe9omr2Os=","type":"boolean"}
+{"_parent":"AAAAAAFrGjUbvojVADg=","visibility":"public","name":"Attribute3","_type":"UMLAttribute","_id":"AAAAAAFrGjZ9cImxYzA=","type":"int"}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Class2","_type":"UMLClass","_id":"AAAAAAFrGjUrZYj+TBM="}
+{"_parent":"AAAAAAFrGjUrZYj+TBM=","name":null,"_type":"UMLInterfaceRealization","_id":"AAAAAAFrGjVk5Ik49V8=","source":"AAAAAAFrGjUrZYj+TBM=","target":"AAAAAAFrGi5uooNYYl8="}
+{"_parent":"AAAAAAFrGjUrZYj+TBM=","name":null,"_type":"UMLInterfaceRealization","_id":"AAAAAAFrHlI930\/UzTo=","source":"AAAAAAFrGjUrZYj+TBM=","target":"AAAAAAFrGjKy7IctKDI="}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Class3","_type":"UMLClass","_id":"AAAAAAFrGjXiqolrHfc="}
+{"_parent":"AAAAAAFrGjXiqolrHfc=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrGjX8GImU5wM=","source":"AAAAAAFrGjXiqolrHfc=","target":"AAAAAAFrGjUbvojVADg="}
+{"_parent":"AAAAAAFrGjXiqolrHfc=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrGjkHVInbiMI=","end1":"AAAAAAFrGjkHU4naq9k=","_id":"AAAAAAFrGjkHU4nZB7A="}
+{"reference":"AAAAAAFrGjUrZYj+TBM=","multiplicity":"","_parent":"AAAAAAFrGjkHU4nZB7A=","visibility":"public","name":"b1","_type":"UMLAssociationEnd","aggregation":"composite","_id":"AAAAAAFrGjkHVInbiMI="}
+{"reference":"AAAAAAFrGjXiqolrHfc=","multiplicity":"","_parent":"AAAAAAFrGjkHU4nZB7A=","visibility":"public","name":"a1","_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrGjkHU4naq9k="}
+{"_parent":"AAAAAAFrGjXiqolrHfc=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrGj0v6orsie8=","end1":"AAAAAAFrGj0v6orr5BM=","_id":"AAAAAAFrGj0v6orquS0="}
+{"reference":"AAAAAAFrGjXiqolrHfc=","multiplicity":"","_parent":"AAAAAAFrGj0v6orquS0=","visibility":"public","name":"d1","_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrGj0v6orsie8="}
+{"reference":"AAAAAAFrGjXiqolrHfc=","multiplicity":"","_parent":"AAAAAAFrGj0v6orquS0=","visibility":"public","name":"c1","_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrGj0v6orr5BM="}
+{"_parent":"AAAAAAFrGjXiqolrHfc=","visibility":"public","name":"Attribute1","_type":"UMLAttribute","_id":"AAAAAAFrGjaOMYm3dQ0=","type":"boolean"}
+{"_parent":"AAAAAAFrGjXiqolrHfc=","visibility":"protected","name":"Attribute2","_type":"UMLAttribute","_id":"AAAAAAFrGjaz04m9cqI=","type":"boolean"}
+{"_parent":"AAAAAAFrGjXiqolrHfc=","visibility":"private","name":"Attribute3","_type":"UMLAttribute","_id":"AAAAAAFrGjbBbonDd70=","type":{"$ref":"AAAAAAFrGjUrZYj+TBM="}}
+{"_parent":"AAAAAAFrGjXiqolrHfc=","visibility":"package","name":"Attribute4","_type":"UMLAttribute","_id":"AAAAAAFrGjbhlonJQvg=","type":{"$ref":"AAAAAAFrGjUrZYj+TBM="}}
+{"_parent":"AAAAAAFrGjXiqolrHfc=","visibility":"private","name":"Attribute5","_type":"UMLAttribute","_id":"AAAAAAFrGjs2tIpNuuA=","type":{"$ref":"AAAAAAFrGjXiqolrHfc="}}
+{"_parent":"AAAAAAFF+qBWK6M3Z8Y=","visibility":"public","name":"Class4","_type":"UMLClass","_id":"AAAAAAFrGj1S94t4RyA="}
+{"_parent":"AAAAAAFrGj1S94t4RyA=","visibility":"public","name":"Operation1","_type":"UMLOperation","_id":"AAAAAAFrGj+TJY516Mg="}
+{"_parent":"AAAAAAFrGj1S94t4RyA=","visibility":"public","name":"Operation2","_type":"UMLOperation","_id":"AAAAAAFrGj\/Cb47u9qc="}
+{"_parent":"AAAAAAFrGj1S94t4RyA=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrGkEiWI\/sqy4=","end1":"AAAAAAFrGkEiV4\/r\/g4=","_id":"AAAAAAFrGkEiV4\/qz84="}
+{"reference":"AAAAAAFrGj1S94t4RyA=","multiplicity":"","_parent":"AAAAAAFrGkEiV4\/qz84=","visibility":"public","name":"b2","_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrGkEiWI\/sqy4="}
+{"reference":"AAAAAAFrGj1S94t4RyA=","multiplicity":"","_parent":"AAAAAAFrGkEiV4\/qz84=","visibility":"public","name":"a2","_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrGkEiV4\/r\/g4="}
+{"_parent":"AAAAAAFrGj1S94t4RyA=","visibility":"private","name":"Attribute1","_type":"UMLAttribute","_id":"AAAAAAFrGj1lXIvRIxo=","type":"int"}
+{"_parent":"AAAAAAFrGj1S94t4RyA=","visibility":"public","name":"Attribute2","_type":"UMLAttribute","_id":"AAAAAAFrGj12VIwHC1E=","type":"float"}
+{"_parent":"AAAAAAFrGj1S94t4RyA=","visibility":"public","name":"Attribute3","_type":"UMLAttribute","_id":"AAAAAAFrGj2D1ow9U8A=","type":"double"}
+END_OF_MODEL
+CLASS_COUNT
+CLASS_OPERATION_COUNT C1 ALL
+CLASS_OPERATION_COUNT C1 NON_RETURN
+CLASS_OPERATION_COUNT C1 NON_PARAM
+CLASS_ATTR_COUNT C1 ALL
+CLASS_ATTR_COUNT C1 SELF_ONLY
+CLASS_TOP_BASE C1
+CLASS_IMPLEMENT_INTERFACE_LIST C1
+CLASS_INFO_HIDDEN C1
+CLASS_ASSO_COUNT C1
+CLASS_ASSO_CLASS_LIST C1
+CLASS_ATTR_VISIBILITY C1 a
+CLASS_ATTR_VISIBILITY C1 dd
+CLASS_ATTR_VISIBILITY C1 self
+CLASS_ATTR_VISIBILITY C1 b
+CLASS_OPERATION_VISIBILITY C1 C1
+CLASS_OPERATION_VISIBILITY C1 getA
+CLASS_OPERATION_COUNT C2 ALL
+CLASS_OPERATION_COUNT C2 NON_RETURN
+CLASS_OPERATION_COUNT C2 NON_PARAM
+CLASS_ATTR_COUNT C2 ALL
+CLASS_ATTR_COUNT C2 SELF_ONLY
+CLASS_TOP_BASE C2
+CLASS_IMPLEMENT_INTERFACE_LIST C2
+CLASS_INFO_HIDDEN C2
+CLASS_ASSO_COUNT C2
+CLASS_ASSO_CLASS_LIST C2
+CLASS_ATTR_VISIBILITY C2 a
+CLASS_ATTR_VISIBILITY C2 dd
+CLASS_ATTR_VISIBILITY C2 self
+CLASS_ATTR_VISIBILITY C2 b
+CLASS_OPERATION_VISIBILITY C2 C2
+CLASS_OPERATION_VISIBILITY C2 getA
+CLASS_OPERATION_COUNT C3 ALL
+CLASS_OPERATION_COUNT C3 NON_RETURN
+CLASS_OPERATION_COUNT C3 NON_PARAM
+CLASS_ATTR_COUNT C3 ALL
+CLASS_ATTR_COUNT C3 SELF_ONLY
+CLASS_TOP_BASE C3
+CLASS_IMPLEMENT_INTERFACE_LIST C3
+CLASS_INFO_HIDDEN C3
+CLASS_ASSO_COUNT C3
+CLASS_ASSO_CLASS_LIST C3
+CLASS_ATTR_VISIBILITY C3 a
+CLASS_ATTR_VISIBILITY C3 dd
+CLASS_ATTR_VISIBILITY C3 self
+CLASS_ATTR_VISIBILITY C3 b
+CLASS_OPERATION_VISIBILITY C3 C3
+CLASS_OPERATION_VISIBILITY C3 getA
+CLASS_OPERATION_COUNT C4 ALL
+CLASS_OPERATION_COUNT C4 NON_RETURN
+CLASS_OPERATION_COUNT C4 NON_PARAM
+CLASS_ATTR_COUNT C4 ALL
+CLASS_ATTR_COUNT C4 SELF_ONLY
+CLASS_TOP_BASE C4
+CLASS_IMPLEMENT_INTERFACE_LIST C4
+CLASS_INFO_HIDDEN C4
+CLASS_ASSO_COUNT C4
+CLASS_ASSO_CLASS_LIST C4
+CLASS_ATTR_VISIBILITY C4 a
+CLASS_ATTR_VISIBILITY C4 dd
+CLASS_ATTR_VISIBILITY C4 self
+CLASS_ATTR_VISIBILITY C4 b
+CLASS_OPERATION_VISIBILITY C4 C4
+CLASS_OPERATION_VISIBILITY C4 getA
+CLASS_OPERATION_COUNT C5 ALL
+CLASS_OPERATION_COUNT C5 NON_RETURN
+CLASS_OPERATION_COUNT C5 NON_PARAM
+CLASS_ATTR_COUNT C5 ALL
+CLASS_ATTR_COUNT C5 SELF_ONLY
+CLASS_TOP_BASE C5
+CLASS_IMPLEMENT_INTERFACE_LIST C5
+CLASS_INFO_HIDDEN C5
+CLASS_ASSO_COUNT C5
+CLASS_ASSO_CLASS_LIST C5
+CLASS_ATTR_VISIBILITY C5 a
+CLASS_ATTR_VISIBILITY C5 dd
+CLASS_ATTR_VISIBILITY C5 self
+CLASS_ATTR_VISIBILITY C5 b
+CLASS_OPERATION_VISIBILITY C5 C5
+CLASS_OPERATION_VISIBILITY C5 getA
+CLASS_OPERATION_COUNT C6 ALL
+CLASS_OPERATION_COUNT C6 NON_RETURN
+CLASS_OPERATION_COUNT C6 NON_PARAM
+CLASS_ATTR_COUNT C6 ALL
+CLASS_ATTR_COUNT C6 SELF_ONLY
+CLASS_TOP_BASE C6
+CLASS_IMPLEMENT_INTERFACE_LIST C6
+CLASS_INFO_HIDDEN C6
+CLASS_ASSO_COUNT C6
+CLASS_ASSO_CLASS_LIST C6
+CLASS_ATTR_VISIBILITY C6 a
+CLASS_ATTR_VISIBILITY C6 dd
+CLASS_ATTR_VISIBILITY C6 self
+CLASS_ATTR_VISIBILITY C6 b
+CLASS_OPERATION_VISIBILITY C6 C6
+CLASS_OPERATION_VISIBILITY C6 getA
+CLASS_OPERATION_COUNT C7 ALL
+CLASS_OPERATION_COUNT C7 NON_RETURN
+CLASS_OPERATION_COUNT C7 NON_PARAM
+CLASS_ATTR_COUNT C7 ALL
+CLASS_ATTR_COUNT C7 SELF_ONLY
+CLASS_TOP_BASE C7
+CLASS_IMPLEMENT_INTERFACE_LIST C7
+CLASS_INFO_HIDDEN C7
+CLASS_ASSO_COUNT C7
+CLASS_ASSO_CLASS_LIST C7
+CLASS_ATTR_VISIBILITY C7 a
+CLASS_ATTR_VISIBILITY C7 b
+CLASS_OPERATION_VISIBILITY C7 C7

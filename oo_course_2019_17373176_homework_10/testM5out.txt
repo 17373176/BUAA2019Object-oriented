@@ -1,0 +1,123 @@
+Ok, path id is 1.
+
+Ok, path id is 2.
+
+Ok, path id is 3.
+
+Ok, path id is 4.
+
+Ok, length is 6.
+
+Ok, length is 3.
+
+Yes.
+
+Ok, distinct node count is 14.
+
+Ok, length is 4.
+
+Failed, node id not exist.
+
+Ok, path id is 5.
+
+Ok, length is 1.
+Failed, node id not exist.
+
+Ok, path removed.
+
+Ok, length is 3.
+
+Failed, node id not exist.
+
+Ok, path id is 6.
+
+Ok, path id is 7.
+
+Failed, path not exist.
+
+Yes.
+Yes.
+No.
+
+Ok, length is 2.
+
+Ok, path id is 8.
+
+Ok, path id is 9.
+
+Ok, path id is 8.
+
+Ok, distinct node count of path is 5.
+
+Ok, distinct node count is 17.
+
+Yes.
+
+No.
+
+Ok, length is 1.
+
+Ok, path id is 10.
+
+Failed, invalid path.
+
+Failed, path not exist.
+
+Yes.
+
+Yes.
+
+Ok, length is 2.
+
+Ok, path 1 is less than 3.
+
+No.
+
+Failed, path not exist.
+
+Failed, path not exist.
+
+Ok, distinct node count is 17.
+
+Failed, path not exist.
+
+Failed, path not exist.
+
+Ok, distinct node count is 17.
+
+No.
+
+Ok, length is 2.
+
+Ok, path id is 11.
+
+Ok, path size is 5.
+
+Ok, path removed.
+
+Ok, path id is 12.
+
+Ok, path id is 13.
+
+Ok, path id is 14.
+
+Ok, path size is 2.
+
+Yes.
+
+Ok, length is 6.
+
+Ok, distinct node count is 19.
+
+Failed, invalid path.
+
+Yes.
+
+Ok, length is 6.
+Ok, path 1 is less than 2.
+
+Failed, path id not exist.
+
+Ok, path 3 is greater than 7.
+
+Failed, path id not exist.

@@ -1,0 +1,142 @@
+{"_parent":"AAAAAAFrF+wPTL5cvd4=","visibility":"public","name":"BasicConv2d","_type":"UMLClass","_id":"AAAAAAFrF+wPY75dMho="}
+{"_parent":"AAAAAAFrF+wPY75dMho=","visibility":"package","name":"BasicConv2d","_type":"UMLOperation","_id":"AAAAAAFrF+wPZb5fsJE="}
+{"_parent":"AAAAAAFrF+wPZb5fsJE=","name":"inChannel","_type":"UMLParameter","_id":"AAAAAAFrF+wPZb5guC8=","type":"Integer","direction":"in"}
+{"_parent":"AAAAAAFrF+wPZb5fsJE=","name":"outChannel","_type":"UMLParameter","_id":"AAAAAAFrF+wPZb5h2PU=","type":"Integer","direction":"in"}
+{"_parent":"AAAAAAFrF+wPZb5fsJE=","name":"_kernelSize","_type":"UMLParameter","_id":"AAAAAAFrF+wPZb5i1T0=","type":"Integer","direction":"in"}
+{"_parent":"AAAAAAFrF+wPZb5fsJE=","name":"stride","_type":"UMLParameter","_id":"AAAAAAFrF+wPZb5jRvI=","type":"Integer","direction":"in"}
+{"_parent":"AAAAAAFrF+wPZb5fsJE=","name":"_padding","_type":"UMLParameter","_id":"AAAAAAFrF+wPZb5kSV8=","type":"Integer","direction":"in"}
+{"_parent":"AAAAAAFrF+wPY75dMho=","visibility":"private","name":"generateKernel","_type":"UMLOperation","_id":"AAAAAAFrF+wPZb5lDzg="}
+{"_parent":"AAAAAAFrF+wPZb5lDzg=","name":null,"_type":"UMLParameter","_id":"AAAAAAFrF+wPZb5nlZw=","type":"void","direction":"return"}
+{"_parent":"AAAAAAFrF+wPY75dMho=","visibility":"public","name":"init","_type":"UMLOperation","_id":"AAAAAAFrF+wPZr5oqmA="}
+{"_parent":"AAAAAAFrF+wPZr5oqmA=","name":"moduleName","_type":"UMLParameter","_id":"AAAAAAFrF+wPZr5piyY=","type":"String","direction":"in"}
+{"_parent":"AAAAAAFrF+wPZr5oqmA=","name":null,"_type":"UMLParameter","_id":"AAAAAAFrF+wPZr5qM4A=","type":"void","direction":"return"}
+{"_parent":"AAAAAAFrF+wPY75dMho=","visibility":"public","name":"getAvailableMethodUsage","_type":"UMLOperation","_id":"AAAAAAFrF+wPZr5rQhw="}
+{"_parent":"AAAAAAFrF+wPZr5rQhw=","name":"methodName","_type":"UMLParameter","_id":"AAAAAAFrF+wPZr5sEn0=","type":"String","direction":"in"}
+{"_parent":"AAAAAAFrF+wPZr5rQhw=","name":null,"_type":"UMLParameter","_id":"AAAAAAFrF+wPZr5tV8w=","type":"String","direction":"return"}
+{"_parent":"AAAAAAFrF+wPY75dMho=","visibility":"public","name":"forward","_type":"UMLOperation","_id":"AAAAAAFrF+wPZr5uZUM="}
+{"_parent":"AAAAAAFrF+wPY75dMho=","visibility":"public","name":"registerForwardHook","_type":"UMLOperation","_id":"AAAAAAFrF+wPZr5xvlA="}
+{"_parent":"AAAAAAFrF+wPZr5xvlA=","name":"module","_type":"UMLParameter","_id":"AAAAAAFrF+wPZr5y6fM=","type":{"$ref":"AAAAAAFrF+wPbL6AX4M="},"direction":"in"}
+{"_parent":"AAAAAAFrF+wPZr5xvlA=","name":null,"_type":"UMLParameter","_id":"AAAAAAFrF+wPZr5zG6U=","type":"void","direction":"return"}
+{"_parent":"AAAAAAFrF+wPY75dMho=","visibility":"public","name":"backward","_type":"UMLOperation","_id":"AAAAAAFrF+wPZr50w8I="}
+{"_parent":"AAAAAAFrF+wPY75dMho=","visibility":"public","name":"registerBackwardHook","_type":"UMLOperation","_id":"AAAAAAFrF+wPZr5334A="}
+{"_parent":"AAAAAAFrF+wPZr5334A=","name":"module","_type":"UMLParameter","_id":"AAAAAAFrF+wPZr54y5g=","type":{"$ref":"AAAAAAFrF+wPbL6AX4M="},"direction":"in"}
+{"_parent":"AAAAAAFrF+wPZr5334A=","name":null,"_type":"UMLParameter","_id":"AAAAAAFrF+wPZr55jlM=","type":"void","direction":"return"}
+{"_parent":"AAAAAAFrF+wPY75dMho=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrF+wPlb6zxvU=","source":"AAAAAAFrF+wPY75dMho=","target":"AAAAAAFrF+wPbL6AX4M="}
+{"_parent":"AAAAAAFrF+wPY75dMho=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrF+wPl76+ne0=","end1":"AAAAAAFrF+wPl769B7U=","_id":"AAAAAAFrF+wPlr68jYE="}
+{"reference":"AAAAAAFrF+wPj76j7AA=","multiplicity":"","_parent":"AAAAAAFrF+wPlr68jYE=","visibility":"private","name":"mWeight","_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrF+wPl76+ne0="}
+{"reference":"AAAAAAFrF+wPY75dMho=","multiplicity":"","_parent":"AAAAAAFrF+wPlr68jYE=","visibility":"package","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrF+wPl769B7U="}
+{"_parent":"AAAAAAFrF+wPY75dMho=","name":null,"_type":"UMLAssociation","end2":"AAAAAAFrF+wPl77Bv54=","end1":"AAAAAAFrF+wPl77AAYE=","_id":"AAAAAAFrF+wPl76\/MSk="}
+{"reference":"AAAAAAFrF+wPj76j7AA=","multiplicity":"","_parent":"AAAAAAFrF+wPl76\/MSk=","visibility":"private","name":"mBias","_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrF+wPl77Bv54="}
+{"reference":"AAAAAAFrF+wPY75dMho=","multiplicity":"","_parent":"AAAAAAFrF+wPl76\/MSk=","visibility":"package","name":null,"_type":"UMLAssociationEnd","aggregation":"none","_id":"AAAAAAFrF+wPl77AAYE="}
+{"_parent":"AAAAAAFrF+wPTL5cvd4=","visibility":"public","name":"BasicModuleInterface","_type":"UMLInterface","_id":"AAAAAAFrF+wPar56Zvs="}
+{"_parent":"AAAAAAFrF+wPar56Zvs=","visibility":"package","name":"toString","_type":"UMLOperation","_id":"AAAAAAFrF+wPar57mCQ="}
+{"_parent":"AAAAAAFrF+wPar57mCQ=","name":null,"_type":"UMLParameter","_id":"AAAAAAFrF+wPar58y9A=","type":"String","direction":"return"}
+{"_parent":"AAAAAAFrF+wPar56Zvs=","visibility":"package","name":"getAvailableMethodUsage","_type":"UMLOperation","_id":"AAAAAAFrF+wPar59rTE="}
+{"_parent":"AAAAAAFrF+wPar59rTE=","name":"methodName","_type":"UMLParameter","_id":"AAAAAAFrF+wPar5+Xjc=","type":"String","direction":"in"}
+{"_parent":"AAAAAAFrF+wPar59rTE=","name":null,"_type":"UMLParameter","_id":"AAAAAAFrF+wPar5\/hGg=","type":"String","direction":"return"}
+{"_parent":"AAAAAAFrF+wPTL5cvd4=","visibility":"public","name":"BasicNetworkModule","_type":"UMLClass","_id":"AAAAAAFrF+wPbL6AX4M="}
+{"_parent":"AAAAAAFrF+wPbL6AX4M=","visibility":"public","name":"registerForwardHook","_type":"UMLOperation","_id":"AAAAAAFrF+wPbL6CyMI="}
+{"_parent":"AAAAAAFrF+wPbL6CyMI=","name":"module","_type":"UMLParameter","_id":"AAAAAAFrF+wPbL6DcuE=","type":{"$ref":"AAAAAAFrF+wPbL6AX4M="},"direction":"in"}
+{"_parent":"AAAAAAFrF+wPbL6CyMI=","name":null,"_type":"UMLParameter","_id":"AAAAAAFrF+wPbL6ET4w=","type":"void","direction":"return"}
+{"_parent":"AAAAAAFrF+wPbL6AX4M=","visibility":"public","name":"registerBackwardHook","_type":"UMLOperation","_id":"AAAAAAFrF+wPbL6FhKE="}
+{"_parent":"AAAAAAFrF+wPbL6FhKE=","name":"module","_type":"UMLParameter","_id":"AAAAAAFrF+wPbL6GTNI=","type":{"$ref":"AAAAAAFrF+wPbL6AX4M="},"direction":"in"}
+{"_parent":"AAAAAAFrF+wPbL6FhKE=","name":null,"_type":"UMLParameter","_id":"AAAAAAFrF+wPbL6Hb+c=","type":"void","direction":"return"}
+{"_parent":"AAAAAAFrF+wPbL6AX4M=","name":null,"_type":"UMLInterfaceRealization","_id":"AAAAAAFrF+wPlb626hA=","source":"AAAAAAFrF+wPbL6AX4M=","target":"AAAAAAFrF+wPbr6IoJA="}
+{"_parent":"AAAAAAFrF+wPTL5cvd4=","visibility":"public","name":"BasicNetworkModuleInterface","_type":"UMLInterface","_id":"AAAAAAFrF+wPbr6IoJA="}
+{"_parent":"AAAAAAFrF+wPbr6IoJA=","visibility":"package","name":"init","_type":"UMLOperation","_id":"AAAAAAFrF+wPbr6KiXY="}
+{"_parent":"AAAAAAFrF+wPbr6KiXY=","name":"moduleName","_type":"UMLParameter","_id":"AAAAAAFrF+wPbr6LyEM=","type":"String","direction":"in"}
+{"_parent":"AAAAAAFrF+wPbr6KiXY=","name":null,"_type":"UMLParameter","_id":"AAAAAAFrF+wPbr6MACE=","type":"void","direction":"return"}
+{"_parent":"AAAAAAFrF+wPbr6IoJA=","visibility":"package","name":"forward","_type":"UMLOperation","_id":"AAAAAAFrF+wPbr6NOSg="}
+{"_parent":"AAAAAAFrF+wPbr6NOSg=","name":"tensors","_type":"UMLParameter","_id":"AAAAAAFrF+wPbr6OCP8=","type":{"$ref":"AAAAAAFrF+wPbr6JNVg="},"direction":"in"}
+{"_parent":"AAAAAAFrF+wPbr6NOSg=","name":null,"_type":"UMLParameter","_id":"AAAAAAFrF+wPbr6PHo0=","type":{"$ref":"AAAAAAFrF+wPbr6JNVg="},"direction":"return"}
+{"_parent":"AAAAAAFrF+wPbr6IoJA=","visibility":"package","name":"backward","_type":"UMLOperation","_id":"AAAAAAFrF+wPbr6QLtg="}
+{"_parent":"AAAAAAFrF+wPbr6QLtg=","name":"grads","_type":"UMLParameter","_id":"AAAAAAFrF+wPbr6RMnM=","type":{"$ref":"AAAAAAFrF+wPbr6JNVg="},"direction":"in"}
+{"_parent":"AAAAAAFrF+wPbr6QLtg=","name":null,"_type":"UMLParameter","_id":"AAAAAAFrF+wPbr6SCQc=","type":{"$ref":"AAAAAAFrF+wPbr6JNVg="},"direction":"return"}
+{"_parent":"AAAAAAFrF+wPbr6IoJA=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrF+wPlb60fXg=","source":"AAAAAAFrF+wPbr6IoJA=","target":"AAAAAAFrF+wPar56Zvs="}
+{"_parent":"AAAAAAFrF+wPTL5cvd4=","visibility":"public","name":"Float32NetworkParam","_type":"UMLClass","_id":"AAAAAAFrF+wPhL6TxlY="}
+{"_parent":"AAAAAAFrF+wPhL6TxlY=","visibility":"package","name":"Float32NetworkParam","_type":"UMLOperation","_id":"AAAAAAFrF+wPhL6UyGI="}
+{"_parent":"AAAAAAFrF+wPhL6UyGI=","name":"shape","_type":"UMLParameter","_id":"AAAAAAFrF+wPhL6VkzE=","type":"Integer","direction":"in"}
+{"_parent":"AAAAAAFrF+wPhL6UyGI=","name":"requireGrad","_type":"UMLParameter","_id":"AAAAAAFrF+wPhL6WklE=","type":"boolean","direction":"in"}
+{"_parent":"AAAAAAFrF+wPhL6TxlY=","visibility":"public","name":"getAvailableMethodUsage","_type":"UMLOperation","_id":"AAAAAAFrF+wPhL6Xs4Y="}
+{"_parent":"AAAAAAFrF+wPhL6Xs4Y=","name":"methodName","_type":"UMLParameter","_id":"AAAAAAFrF+wPhL6YHWE=","type":"String","direction":"in"}
+{"_parent":"AAAAAAFrF+wPhL6Xs4Y=","name":null,"_type":"UMLParameter","_id":"AAAAAAFrF+wPhL6ZDYI=","type":"String","direction":"return"}
+{"_parent":"AAAAAAFrF+wPhL6TxlY=","visibility":"public","name":"updateTensorSgdMomentum","_type":"UMLOperation","_id":"AAAAAAFrF+wPhL6adLI="}
+{"_parent":"AAAAAAFrF+wPhL6adLI=","name":"data","_type":"UMLParameter","_id":"AAAAAAFrF+wPhL6bauw=","type":{"$ref":"AAAAAAFrF+wPm77LC1c="},"direction":"in"}
+{"_parent":"AAAAAAFrF+wPhL6adLI=","name":"grad","_type":"UMLParameter","_id":"AAAAAAFrF+wPhL6cx6Q=","type":{"$ref":"AAAAAAFrF+wPm77LC1c="},"direction":"in"}
+{"_parent":"AAAAAAFrF+wPhL6adLI=","name":"momentumOrder1","_type":"UMLParameter","_id":"AAAAAAFrF+wPhL6dw\/U=","type":{"$ref":"AAAAAAFrF+wPm77LC1c="},"direction":"in"}
+{"_parent":"AAAAAAFrF+wPhL6adLI=","name":"learningRate","_type":"UMLParameter","_id":"AAAAAAFrF+wPhL6e8WA=","type":"float","direction":"in"}
+{"_parent":"AAAAAAFrF+wPhL6adLI=","name":"mementumOrder1Factor","_type":"UMLParameter","_id":"AAAAAAFrF+wPhL6fbpc=","type":"float","direction":"in"}
+{"_parent":"AAAAAAFrF+wPhL6adLI=","name":null,"_type":"UMLParameter","_id":"AAAAAAFrF+wPhL6gxLo=","type":"void","direction":"return"}
+{"_parent":"AAAAAAFrF+wPhL6TxlY=","visibility":"public","name":"updateTensorSgdMomentum","_type":"UMLOperation","_id":"AAAAAAFrF+wPhL6hLbU="}
+{"_parent":"AAAAAAFrF+wPhL6hLbU=","name":null,"_type":"UMLParameter","_id":"AAAAAAFrF+wPhL6i3GQ=","type":"void","direction":"return"}
+{"_parent":"AAAAAAFrF+wPhL6TxlY=","name":null,"_type":"UMLGeneralization","_id":"AAAAAAFrF+wPlb61Pms=","source":"AAAAAAFrF+wPhL6TxlY=","target":"AAAAAAFrF+wPj76j7AA="}
+{"_parent":"AAAAAAFrF+wPhL6TxlY=","name":null,"_type":"UMLInterfaceRealization","_id":"AAAAAAFrF+wPlb64eN0=","source":"AAAAAAFrF+wPhL6TxlY=","target":"AAAAAAFrF+wPlb63OdA="}
+{"_parent":"AAAAAAFrF+wPhL6TxlY=","visibility":"private","name":"mMomentumOrder1","_type":"UMLAttribute","_id":"AAAAAAFrF+wPl77CCEs=","type":{"$ref":"AAAAAAFrF+wPm77LC1c="}}
+{"_parent":"AAAAAAFrF+wPTL5cvd4=","visibility":"public","name":"NetworkParam","_type":"UMLClass","_id":"AAAAAAFrF+wPj76j7AA="}
+{"_parent":"AAAAAAFrF+wPj76j7AA=","visibility":"public","name":"getRequireGrad","_type":"UMLOperation","_id":"AAAAAAFrF+wPj76lMaA="}
+{"_parent":"AAAAAAFrF+wPj76lMaA=","name":null,"_type":"UMLParameter","_id":"AAAAAAFrF+wPj76msYo=","type":"boolean","direction":"return"}
+{"_parent":"AAAAAAFrF+wPj76j7AA=","visibility":"public","name":"setRequireGrad","_type":"UMLOperation","_id":"AAAAAAFrF+wPj76n9I8="}
+{"_parent":"AAAAAAFrF+wPj76n9I8=","name":"gradFlag","_type":"UMLParameter","_id":"AAAAAAFrF+wPj76oKOc=","type":"boolean","direction":"in"}
+{"_parent":"AAAAAAFrF+wPj76n9I8=","name":null,"_type":"UMLParameter","_id":"AAAAAAFrF+wPj76pzsM=","type":"void","direction":"return"}
+{"_parent":"AAAAAAFrF+wPj76j7AA=","visibility":"public","name":"getData","_type":"UMLOperation","_id":"AAAAAAFrF+wPj76qbWk="}
+{"_parent":"AAAAAAFrF+wPj76qbWk=","name":null,"_type":"UMLParameter","_id":"AAAAAAFrF+wPj76r7n0=","type":{"$ref":"AAAAAAFrF+wPm77LC1c="},"direction":"return"}
+{"_parent":"AAAAAAFrF+wPj76j7AA=","visibility":"public","name":"getGrad","_type":"UMLOperation","_id":"AAAAAAFrF+wPj76sMbI="}
+{"_parent":"AAAAAAFrF+wPj76sMbI=","name":null,"_type":"UMLParameter","_id":"AAAAAAFrF+wPj76t9Y8=","type":{"$ref":"AAAAAAFrF+wPm77LC1c="},"direction":"return"}
+{"_parent":"AAAAAAFrF+wPj76j7AA=","visibility":"public","name":"updateTensorSgd","_type":"UMLOperation","_id":"AAAAAAFrF+wPj76uWis="}
+{"_parent":"AAAAAAFrF+wPj76uWis=","name":"data","_type":"UMLParameter","_id":"AAAAAAFrF+wPj76veKc=","type":{"$ref":"AAAAAAFrF+wPm77LC1c="},"direction":"in"}
+{"_parent":"AAAAAAFrF+wPj76uWis=","name":"grad","_type":"UMLParameter","_id":"AAAAAAFrF+wPj76wGZY=","type":{"$ref":"AAAAAAFrF+wPm77LC1c="},"direction":"in"}
+{"_parent":"AAAAAAFrF+wPj76uWis=","name":"learningRate","_type":"UMLParameter","_id":"AAAAAAFrF+wPkL6xPgE=","type":"float","direction":"in"}
+{"_parent":"AAAAAAFrF+wPj76uWis=","name":null,"_type":"UMLParameter","_id":"AAAAAAFrF+wPkL6ytG0=","type":"void","direction":"return"}
+{"_parent":"AAAAAAFrF+wPj76j7AA=","name":null,"_type":"UMLInterfaceRealization","_id":"AAAAAAFrF+wPlb66OH4=","source":"AAAAAAFrF+wPj76j7AA=","target":"AAAAAAFrF+wPlb65B6o="}
+{"_parent":"AAAAAAFrF+wPj76j7AA=","visibility":"protected","name":"mData","_type":"UMLAttribute","_id":"AAAAAAFrF+wPl77DvZE=","type":{"$ref":"AAAAAAFrF+wPm77LC1c="}}
+{"_parent":"AAAAAAFrF+wPj76j7AA=","visibility":"protected","name":"mGrad","_type":"UMLAttribute","_id":"AAAAAAFrF+wPl77Eygs=","type":{"$ref":"AAAAAAFrF+wPm77LC1c="}}
+{"_parent":"AAAAAAFrF+wPj76j7AA=","visibility":"private","name":"mRequireGrad","_type":"UMLAttribute","_id":"AAAAAAFrF+wPl77FLJA=","type":"boolean"}
+{"_parent":"AAAAAAFrF+wPTL5cvd4=","visibility":"public","name":"SgdMomentumInterface","_type":"UMLInterface","_id":"AAAAAAFrF+wPlb63OdA="}
+{"_parent":"AAAAAAFrF+wPTL5cvd4=","visibility":"public","name":"GradientInterface","_type":"UMLInterface","_id":"AAAAAAFrF+wPlb65B6o="}
+{"_parent":"AAAAAAFrF+wPTL5cvd4=","visibility":"public","name":"BasicTensor","_type":"UMLClass","_id":"AAAAAAFrF+wPm77LC1c="}
+END_OF_MODEL
+CLASS_COUNT
+CLASS_OPERATION_COUNT BasicTensor ALL
+CLASS_OPERATION_COUNT BasicTensor RETURN
+CLASS_OPERATION_COUNT BasicTensor NON_RETURN
+CLASS_OPERATION_COUNT BasicTensor PARAM
+CLASS_OPERATION_COUNT BasicTensor NON_PARAM
+CLASS_OPERATION_COUNT BasicConv2d ALL
+CLASS_OPERATION_COUNT BasicConv2d RETURN
+CLASS_OPERATION_COUNT BasicConv2d NON_RETURN
+CLASS_OPERATION_COUNT BasicConv2d PARAM
+CLASS_OPERATION_COUNT BasicConv2d NON_PARAM
+CLASS_ATTR_COUNT BasicTensor ALL
+CLASS_ATTR_COUNT BasicTensor SELF_ONLY
+CLASS_OPERATION_COUNT BasicTensor RETURN
+CLASS_TOP_BASE Float32NetworkParam
+CLASS_TOP_BASE BasicConv2d
+CLASS_INFO_HIDDEN Taxi
+CLASS_INFO_HIDDEN BasicConv2d
+CLASS_INFO_HIDDEN Float32NetworkParam
+CLASS_INFO_HIDDEN NetworkParam
+CLASS_ATTR_VISIBILITY Float32NetworkParam mMomentumOrder1
+CLASS_ATTR_VISIBILITY Float32NetworkParam mMomentumOrder2
+CLASS_OPERATION_VISIBILITY Float32NetworkParam getAvailableMethodUsage
+CLASS_ASSO_CLASS_LIST Float32NetworkParam
+CLASS_ASSO_CLASS_LIST BasicConv2d
+CLASS_ASSO_CLASS_LIST BasicTensor
+CLASS_IMPLEMENT_INTERFACE_LIST Float32NetworkParam
+CLASS_IMPLEMENT_INTERFACE_LIST Tensor
+CLASS_IMPLEMENT_INTERFACE_LIST NetworkParam
+CLASS_TOP_BASE NetworkParam
+CLASS_ATTR_COUNT Float32NetworkParam ALL
+CLASS_ATTR_COUNT Float32NetworkParam SELF_ONLY
+CLASS_ASSO_COUNT Float32NetworkParam
+CLASS_ASSO_COUNT Float32NetworkParam
+CLASS_ASSO_COUNT BasicConv2d
+CLASS_ASSO_COUNT NetworkParam
+CLASS_ASSO_COUNT BasicTensor
+CLASS_ASSO_CLASS_LIST BasicTensor
+CLASS_ASSO_CLASS_LIST BasicConv2d
+CLASS_ASSO_CLASS_LIST Float32NetworkParam
+CLASS_ASSO_CLASS_LIST NetworkParam
+CLASS_COUNT
+PTCP_OBJ_COUNT Interaction
+MESSAGE_COUNT Interaction
+INCOMING_MSG_COUNT Interaction Lifeline
